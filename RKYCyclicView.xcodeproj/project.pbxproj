@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D2203F1F8C982100B15D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2203E1F8C982100B15D63 /* main.m */; };
+		18D220421F8C982100B15D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220411F8C982100B15D63 /* AppDelegate.m */; };
+		18D220451F8C982100B15D63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220441F8C982100B15D63 /* ViewController.m */; };
+		18D220481F8C982100B15D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D220461F8C982100B15D63 /* Main.storyboard */; };
+		18D2204A1F8C982100B15D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D220491F8C982100B15D63 /* Assets.xcassets */; };
+		18D2204D1F8C982100B15D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D2204B1F8C982100B15D63 /* LaunchScreen.storyboard */; };
+		18D220581F8C982100B15D63 /* RKYCyclicViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220571F8C982100B15D63 /* RKYCyclicViewTests.m */; };
+		18D220631F8C982100B15D63 /* RKYCyclicViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220621F8C982100B15D63 /* RKYCyclicViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D220541F8C982100B15D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D220321F8C982100B15D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D220391F8C982100B15D63;
+			remoteInfo = RKYCyclicView;
+		};
+		18D2205F1F8C982100B15D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D220321F8C982100B15D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D220391F8C982100B15D63;
+			remoteInfo = RKYCyclicView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D2203A1F8C982100B15D63 /* RKYCyclicView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKYCyclicView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D2203E1F8C982100B15D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D220401F8C982100B15D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D220411F8C982100B15D63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D220431F8C982100B15D63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D220441F8C982100B15D63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D220471F8C982100B15D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D220491F8C982100B15D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D2204C1F8C982100B15D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D2204E1F8C982100B15D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D220531F8C982100B15D63 /* RKYCyclicViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKYCyclicViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D220571F8C982100B15D63 /* RKYCyclicViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKYCyclicViewTests.m; sourceTree = "<group>"; };
+		18D220591F8C982100B15D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D2205E1F8C982100B15D63 /* RKYCyclicViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKYCyclicViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D220621F8C982100B15D63 /* RKYCyclicViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKYCyclicViewUITests.m; sourceTree = "<group>"; };
+		18D220641F8C982100B15D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D220371F8C982100B15D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D220501F8C982100B15D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D2205B1F8C982100B15D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D220311F8C982100B15D63 = {
+			isa = PBXGroup;
+			children = (
+				18D2203C1F8C982100B15D63 /* RKYCyclicView */,
+				18D220561F8C982100B15D63 /* RKYCyclicViewTests */,
+				18D220611F8C982100B15D63 /* RKYCyclicViewUITests */,
+				18D2203B1F8C982100B15D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D2203B1F8C982100B15D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D2203A1F8C982100B15D63 /* RKYCyclicView.app */,
+				18D220531F8C982100B15D63 /* RKYCyclicViewTests.xctest */,
+				18D2205E1F8C982100B15D63 /* RKYCyclicViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D2203C1F8C982100B15D63 /* RKYCyclicView */ = {
+			isa = PBXGroup;
+			children = (
+				18D220401F8C982100B15D63 /* AppDelegate.h */,
+				18D220411F8C982100B15D63 /* AppDelegate.m */,
+				18D220431F8C982100B15D63 /* ViewController.h */,
+				18D220441F8C982100B15D63 /* ViewController.m */,
+				18D220461F8C982100B15D63 /* Main.storyboard */,
+				18D220491F8C982100B15D63 /* Assets.xcassets */,
+				18D2204B1F8C982100B15D63 /* LaunchScreen.storyboard */,
+				18D2204E1F8C982100B15D63 /* Info.plist */,
+				18D2203D1F8C982100B15D63 /* Supporting Files */,
+			);
+			path = RKYCyclicView;
+			sourceTree = "<group>";
+		};
+		18D2203D1F8C982100B15D63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D2203E1F8C982100B15D63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D220561F8C982100B15D63 /* RKYCyclicViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D220571F8C982100B15D63 /* RKYCyclicViewTests.m */,
+				18D220591F8C982100B15D63 /* Info.plist */,
+			);
+			path = RKYCyclicViewTests;
+			sourceTree = "<group>";
+		};
+		18D220611F8C982100B15D63 /* RKYCyclicViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D220621F8C982100B15D63 /* RKYCyclicViewUITests.m */,
+				18D220641F8C982100B15D63 /* Info.plist */,
+			);
+			path = RKYCyclicViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D220391F8C982100B15D63 /* RKYCyclicView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D220671F8C982100B15D63 /* Build configuration list for PBXNativeTarget "RKYCyclicView" */;
+			buildPhases = (
+				18D220361F8C982100B15D63 /* Sources */,
+				18D220371F8C982100B15D63 /* Frameworks */,
+				18D220381F8C982100B15D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKYCyclicView;
+			productName = RKYCyclicView;
+			productReference = 18D2203A1F8C982100B15D63 /* RKYCyclicView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D220521F8C982100B15D63 /* RKYCyclicViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D2206A1F8C982100B15D63 /* Build configuration list for PBXNativeTarget "RKYCyclicViewTests" */;
+			buildPhases = (
+				18D2204F1F8C982100B15D63 /* Sources */,
+				18D220501F8C982100B15D63 /* Frameworks */,
+				18D220511F8C982100B15D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D220551F8C982100B15D63 /* PBXTargetDependency */,
+			);
+			name = RKYCyclicViewTests;
+			productName = RKYCyclicViewTests;
+			productReference = 18D220531F8C982100B15D63 /* RKYCyclicViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D2205D1F8C982100B15D63 /* RKYCyclicViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D2206D1F8C982100B15D63 /* Build configuration list for PBXNativeTarget "RKYCyclicViewUITests" */;
+			buildPhases = (
+				18D2205A1F8C982100B15D63 /* Sources */,
+				18D2205B1F8C982100B15D63 /* Frameworks */,
+				18D2205C1F8C982100B15D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D220601F8C982100B15D63 /* PBXTargetDependency */,
+			);
+			name = RKYCyclicViewUITests;
+			productName = RKYCyclicViewUITests;
+			productReference = 18D2205E1F8C982100B15D63 /* RKYCyclicViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D220321F8C982100B15D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IndGlobal;
+				TargetAttributes = {
+					18D220391F8C982100B15D63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6UXT56AFS;
+						ProvisioningStyle = Automatic;
+					};
+					18D220521F8C982100B15D63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6UXT56AFS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18D220391F8C982100B15D63;
+					};
+					18D2205D1F8C982100B15D63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6UXT56AFS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18D220391F8C982100B15D63;
+					};
+				};
+			};
+			buildConfigurationList = 18D220351F8C982100B15D63 /* Build configuration list for PBXProject "RKYCyclicView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D220311F8C982100B15D63;
+			productRefGroup = 18D2203B1F8C982100B15D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D220391F8C982100B15D63 /* RKYCyclicView */,
+				18D220521F8C982100B15D63 /* RKYCyclicViewTests */,
+				18D2205D1F8C982100B15D63 /* RKYCyclicViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D220381F8C982100B15D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D2204D1F8C982100B15D63 /* LaunchScreen.storyboard in Resources */,
+				18D2204A1F8C982100B15D63 /* Assets.xcassets in Resources */,
+				18D220481F8C982100B15D63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D220511F8C982100B15D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D2205C1F8C982100B15D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D220361F8C982100B15D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D220451F8C982100B15D63 /* ViewController.m in Sources */,
+				18D220421F8C982100B15D63 /* AppDelegate.m in Sources */,
+				18D2203F1F8C982100B15D63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D2204F1F8C982100B15D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D220581F8C982100B15D63 /* RKYCyclicViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D2205A1F8C982100B15D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D220631F8C982100B15D63 /* RKYCyclicViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D220551F8C982100B15D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D220391F8C982100B15D63 /* RKYCyclicView */;
+			targetProxy = 18D220541F8C982100B15D63 /* PBXContainerItemProxy */;
+		};
+		18D220601F8C982100B15D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D220391F8C982100B15D63 /* RKYCyclicView */;
+			targetProxy = 18D2205F1F8C982100B15D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D220461F8C982100B15D63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D220471F8C982100B15D63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D2204B1F8C982100B15D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D2204C1F8C982100B15D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D220651F8C982100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D220661F8C982100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D220681F8C982100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6UXT56AFS;
+				INFOPLIST_FILE = RKYCyclicView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RKYCyclicView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D220691F8C982100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6UXT56AFS;
+				INFOPLIST_FILE = RKYCyclicView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RKYCyclicView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18D2206B1F8C982100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6UXT56AFS;
+				INFOPLIST_FILE = RKYCyclicViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RKYCyclicViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKYCyclicView.app/RKYCyclicView";
+			};
+			name = Debug;
+		};
+		18D2206C1F8C982100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6UXT56AFS;
+				INFOPLIST_FILE = RKYCyclicViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RKYCyclicViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKYCyclicView.app/RKYCyclicView";
+			};
+			name = Release;
+		};
+		18D2206E1F8C982100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y6UXT56AFS;
+				INFOPLIST_FILE = RKYCyclicViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RKYCyclicViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RKYCyclicView;
+			};
+			name = Debug;
+		};
+		18D2206F1F8C982100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y6UXT56AFS;
+				INFOPLIST_FILE = RKYCyclicViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RKYCyclicViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RKYCyclicView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D220351F8C982100B15D63 /* Build configuration list for PBXProject "RKYCyclicView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D220651F8C982100B15D63 /* Debug */,
+				18D220661F8C982100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D220671F8C982100B15D63 /* Build configuration list for PBXNativeTarget "RKYCyclicView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D220681F8C982100B15D63 /* Debug */,
+				18D220691F8C982100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D2206A1F8C982100B15D63 /* Build configuration list for PBXNativeTarget "RKYCyclicViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D2206B1F8C982100B15D63 /* Debug */,
+				18D2206C1F8C982100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D2206D1F8C982100B15D63 /* Build configuration list for PBXNativeTarget "RKYCyclicViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D2206E1F8C982100B15D63 /* Debug */,
+				18D2206F1F8C982100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D220321F8C982100B15D63 /* Project object */;
+}
