@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *RKYcontainerView;
+@property (weak, nonatomic) IBOutlet UICollectionView *RKYcollectionview;
+
+@property (weak, nonatomic) UIViewController *currentViewController;
 
 @end
 

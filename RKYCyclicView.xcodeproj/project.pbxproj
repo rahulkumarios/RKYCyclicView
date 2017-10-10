@@ -15,6 +15,11 @@
 		18D2204D1F8C982100B15D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D2204B1F8C982100B15D63 /* LaunchScreen.storyboard */; };
 		18D220581F8C982100B15D63 /* RKYCyclicViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220571F8C982100B15D63 /* RKYCyclicViewTests.m */; };
 		18D220631F8C982100B15D63 /* RKYCyclicViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220621F8C982100B15D63 /* RKYCyclicViewUITests.m */; };
+		18D220721F8C98DE00B15D63 /* RKYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220711F8C98DE00B15D63 /* RKYCollectionViewCell.m */; };
+		18D220751F8C9A8100B15D63 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220741F8C9A8100B15D63 /* FirstViewController.m */; };
+		18D220781F8C9A8800B15D63 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D220771F8C9A8800B15D63 /* SecondViewController.m */; };
+		18D2207B1F8C9A8E00B15D63 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2207A1F8C9A8E00B15D63 /* ThirdViewController.m */; };
+		18D2207E1F8C9A9500B15D63 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2207D1F8C9A9500B15D63 /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		18D2205E1F8C982100B15D63 /* RKYCyclicViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKYCyclicViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D220621F8C982100B15D63 /* RKYCyclicViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKYCyclicViewUITests.m; sourceTree = "<group>"; };
 		18D220641F8C982100B15D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D220701F8C98DE00B15D63 /* RKYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKYCollectionViewCell.h; sourceTree = "<group>"; };
+		18D220711F8C98DE00B15D63 /* RKYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKYCollectionViewCell.m; sourceTree = "<group>"; };
+		18D220731F8C9A8100B15D63 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		18D220741F8C9A8100B15D63 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		18D220761F8C9A8800B15D63 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		18D220771F8C9A8800B15D63 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18D220791F8C9A8E00B15D63 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		18D2207A1F8C9A8E00B15D63 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		18D2207C1F8C9A9500B15D63 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		18D2207D1F8C9A9500B15D63 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +120,17 @@
 				18D220411F8C982100B15D63 /* AppDelegate.m */,
 				18D220431F8C982100B15D63 /* ViewController.h */,
 				18D220441F8C982100B15D63 /* ViewController.m */,
+				18D220731F8C9A8100B15D63 /* FirstViewController.h */,
+				18D220741F8C9A8100B15D63 /* FirstViewController.m */,
+				18D220761F8C9A8800B15D63 /* SecondViewController.h */,
+				18D220771F8C9A8800B15D63 /* SecondViewController.m */,
+				18D220791F8C9A8E00B15D63 /* ThirdViewController.h */,
+				18D2207A1F8C9A8E00B15D63 /* ThirdViewController.m */,
+				18D2207C1F8C9A9500B15D63 /* FourthViewController.h */,
+				18D2207D1F8C9A9500B15D63 /* FourthViewController.m */,
 				18D220461F8C982100B15D63 /* Main.storyboard */,
+				18D220701F8C98DE00B15D63 /* RKYCollectionViewCell.h */,
+				18D220711F8C98DE00B15D63 /* RKYCollectionViewCell.m */,
 				18D220491F8C982100B15D63 /* Assets.xcassets */,
 				18D2204B1F8C982100B15D63 /* LaunchScreen.storyboard */,
 				18D2204E1F8C982100B15D63 /* Info.plist */,
@@ -276,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D2207E1F8C9A9500B15D63 /* FourthViewController.m in Sources */,
+				18D220781F8C9A8800B15D63 /* SecondViewController.m in Sources */,
 				18D220451F8C982100B15D63 /* ViewController.m in Sources */,
 				18D220421F8C982100B15D63 /* AppDelegate.m in Sources */,
+				18D220751F8C9A8100B15D63 /* FirstViewController.m in Sources */,
 				18D2203F1F8C982100B15D63 /* main.m in Sources */,
+				18D220721F8C98DE00B15D63 /* RKYCollectionViewCell.m in Sources */,
+				18D2207B1F8C9A8E00B15D63 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
